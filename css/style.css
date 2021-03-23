@@ -11996,9 +11996,7 @@ textarea.form-control {
 }
 
 .img,
-.blog-img,
-.user-img {
-  background-size: cover;
+.blog-img .user-img {
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -12602,4 +12600,9 @@ textarea.form-control {
 
 hr {
   width: 50%;
+}
+
+.about-img {
+  border-radius: 50%;
+  display: inline-block;
 }
